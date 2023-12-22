@@ -5,3 +5,4 @@
 * Project - Core Combat created
 * Updated .gitignore
 * Created initial sandbox for prototyping and testing
+* Completed part one of basic movement
