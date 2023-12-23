@@ -8,3 +8,4 @@
 * Completed part one of basic movement
 * Create a fixed follow camera
 * Begin building animation blend trees
+* Fixed compiler errors
