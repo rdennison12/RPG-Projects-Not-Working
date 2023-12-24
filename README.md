@@ -9,3 +9,4 @@
 * Create a fixed follow camera
 * Begin building animation blend trees
 * Fixed compiler errors
+* Begin building Basic Combat 
