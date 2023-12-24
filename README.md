@@ -9,4 +9,5 @@
 * Create a fixed follow camera
 * Begin building animation blend trees
 * Fixed compiler errors
-* Begin building Basic Combat 
+* Begin building Basic Combat
+* Decoupled dependencies (the beginning)
