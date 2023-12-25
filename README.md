@@ -12,3 +12,4 @@
 * Begin building Basic Combat
 * Decoupled dependencies (the beginning)
 * Introduction to Action Scheduling and Interfaces
+* Created Attack actions and beginning to created a character prefab and player/enemy variants 
