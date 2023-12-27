@@ -1,4 +1,5 @@
 using RPG.Combat;
+using RPG.Core;
 using UnityEngine;
 
 namespace RPG.Control
@@ -7,15 +8,20 @@ namespace RPG.Control
     {
         [SerializeField] float chanceDistance = 5f;
         Fighter fighter;
+        Health health;
+
         GameObject player;
 
         private void Start()
         {
             fighter = GetComponent<Fighter>();
+            health = GetComponent<Health>();
             player = GameObject.FindWithTag("Player");
         }
         private void Update()
         {
+            if (health.IsDead()) return;
+            
             if (InRangeOfPlayer() && fighter.CanAttack(player))
             {
                 fighter.Attack(player);
