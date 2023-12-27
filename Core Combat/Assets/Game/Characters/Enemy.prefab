@@ -93,7 +93,7 @@ PrefabInstance:
     - target: {fileID: 8196697675836667564, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.6122394
+      value: -7.85
       objectReference: {fileID: 0}
     - target: {fileID: 8196697675836667564, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
@@ -103,7 +103,7 @@ PrefabInstance:
     - target: {fileID: 8196697675836667564, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.4041536
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: 8196697675836667564, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
@@ -221,3 +221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chanceDistance: 5
+  suspicionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 0.03

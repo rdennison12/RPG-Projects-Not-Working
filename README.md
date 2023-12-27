@@ -17,3 +17,5 @@
 * Begin building AI controller
     * Refactored player controller and fighter to be interchangeable between player and enemy
 * Decoupled control when AI or Player is dead
+* Created Patrol Behaviour using waypoints
+    * Using Gizmos to visualize patrol routes
