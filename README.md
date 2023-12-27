@@ -19,3 +19,4 @@
 * Decoupled control when AI or Player is dead
 * Created Patrol Behaviour using waypoints
     * Using Gizmos to visualize patrol routes
+* Completed initial Patrolling behaviour for AIs
